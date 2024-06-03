@@ -18,7 +18,7 @@ Options:
 ```
 
 ```sh
-$ electron-minidump -f crash.dmp
+$ sudo electron-minidump -f crash.dmp
 Operating system: Windows NT
                   10.0.17134
 CPU: amd64
