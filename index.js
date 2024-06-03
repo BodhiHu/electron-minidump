@@ -65,7 +65,7 @@ function fetchSymbol(directory, baseUrl, pdb, id, symbolFileName) {
     // handle this in JS rather than by shelling out, though, so TODO.
     const child = require('child_process').spawn('curl', [
       // We don't need progress bars.
-      '--silent',
+      //'--silent',
 
       // The Mozilla symbol server redirects to S3, so follow that
       // redirect.
